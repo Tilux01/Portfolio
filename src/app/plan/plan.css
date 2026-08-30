@@ -1,0 +1,163 @@
+.planOverall{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.planOverall header{
+    background: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 2.5%;
+    align-items: center;
+    height: 90px;
+    position: fixed;
+    width: calc(100vw - 5%);
+    z-index: 22;
+}
+.planOverall header h1{
+    font-weight: 800;
+    font-size: 40px;
+}
+.planOverall header h4{
+    font-size: 19px;
+    position: relative;
+    top: 5px;
+    border-bottom: 5px solid black;
+    padding-bottom: 2px;
+}
+header img{
+    width: 25px;
+}
+.planOverall header .btn-parent,
+.planOverall header .btn-parent .cart,
+.planOverall header .btn-parent .join{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 50px;
+}
+.planOverall header p{
+    font-weight: 800;
+    font-size: 12px;
+}
+.planOverall header .btn-parent .join{
+    gap: 5px;
+    border-right: 1px solid rgba(128, 128, 128, 0.248);
+    padding-right: 20px;
+}
+.planOverall header .btn-parent .join img{
+    transform: rotate(45deg);
+}
+.planOverall header .btn-parent .pass{
+    padding: 0px 20px;
+    border-right: 1px solid rgba(128, 128, 128, 0.248);
+}
+.planOverall header .btn-parent .cart{
+    padding-left: 20px;
+}
+.planOverall header .btn-parent .cart img{
+    filter: invert(1);
+}
+.planOverall header .btn-parent .cart p{
+    position: absolute;
+    right: -2px;
+    font-size: 10px;
+    z-index: 1;
+    bottom: 2px;
+    padding: 2px;
+    background: #d6fb00;
+    border-radius: 50%;
+}
+.planOverall .subHero{
+    background: #fafafa;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.planOverall .subHero h1{
+    font-size: 65px;
+    font-weight: 800;
+    position: relative;
+    top: 10px;
+}
+.planOverall .plan{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition: 1s ease;
+    justify-content: center;
+    align-items: center;
+}
+.planOverall .plan:hover > img{
+    right: 5%;
+    transform: translateX(5%);
+    transition: 1s ease;
+
+}
+.planOverall .plan > img{
+    width: 400px;
+    position: absolute;
+    right: 7%;
+    top: -137px;
+    transition: 1s ease;
+}
+.planOverall .plan h1{
+    color: whitesmoke;
+    font-size: 45px;
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 800;
+}
+.planOverall .plan .plan-card-parent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 60px;
+}
+.planOverall .plan .plan-card-parent .plan-card{
+    width: 95%;
+    max-width: 350px;
+    background: #d6fb00;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 490px;
+}
+.planOverall .plan .plan-card-parent .plan-card:nth-child(1),
+.planOverall .plan .plan-card-parent .plan-card:nth-child(3){
+    margin-top: 60px;
+    background: #ededed;
+}
+.planOverall .plan .plan-card-parent .plan-card h2{
+    font-weight: 800;
+    font-size: 30px;
+}
+.planOverall .plan .plan-card-parent .plan-card p{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+}
+.planOverall .plan .plan-card-parent .plan-card > p{
+    padding: 40px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.576);
+    border-top: 1px solid rgba(0, 0, 0, 0.576);
+    margin-bottom: 20px;
+}
+.planOverall .plan .plan-card-parent .plan-card .btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.planOverall .plan .plan-card-parent .plan-card .btn:hover p{
+    text-decoration: underline;
+}
+.planOverall .plan .plan-card-parent .plan-card .btn img{
+    width: 40px;
+    transform: rotate(45deg);
+}

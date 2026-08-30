@@ -1,0 +1,193 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.signup header{
+    background: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 2.5%;
+    align-items: center;
+    height: 90px;
+    position: fixed;
+    width: calc(100vw - 5%);
+    z-index: 22;
+}
+.signup header h1{
+    font-weight: 800;
+    font-size: 40px;
+}
+.signup header h4{
+    font-size: 19px;
+    position: relative;
+    top: 5px;
+    border-bottom: 5px solid black;
+    padding-bottom: 2px;
+}
+header img{
+    width: 25px;
+}
+.signup header .btn-parent,
+.signup header .btn-parent .cart,
+.signup header .btn-parent .join{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 50px;
+}
+.signup header p{
+    font-weight: 800;
+    font-size: 12px;
+}
+.signup header .btn-parent .join{
+    gap: 5px;
+    border-right: 1px solid rgba(128, 128, 128, 0.248);
+    padding-right: 20px;
+}
+.signup header .btn-parent .join img{
+    transform: rotate(45deg);
+}
+.signup header .btn-parent .pass{
+    padding: 0px 20px;
+    border-right: 1px solid rgba(128, 128, 128, 0.248);
+}
+.signup header .btn-parent .cart{
+    padding-left: 20px;
+}
+.signup header .btn-parent .cart img{
+    filter: invert(1);
+}
+.signup header .btn-parent .cart p{
+    position: absolute;
+    right: -2px;
+    font-size: 10px;
+    z-index: 1;
+    bottom: 2px;
+    padding: 2px;
+    background: #d6fb00;
+    border-radius: 50%;
+}
+.signup .form{
+    background: #d6fb00;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-bottom: 200px;
+}
+.signup .form h1{
+    font-family: 800;
+    font-size: 60px;
+    margin: 0;
+}
+.signup .form .stage{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.signup .form .stage p{
+    background: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #d6fb00;
+    font-weight: 800;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup .form .stage .line{
+    height: 2.3px;
+    width: 100px;
+    background: rgba(0, 0, 0, 0.163);
+}
+.signup .form .info{
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+.signup .form .info h3{
+    text-align: center;
+}
+.signup .form .info > div{
+    display: flex;
+    gap: 10px;
+}
+.signup .form .info > div input,
+.signup .form .info > div select{
+    width: 100%;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 17px;
+    border: 2px solid rgba(0, 0, 0, 0.756);
+    outline: 0;
+}
+.signup .form .info > div:nth-child(6){
+    position: relative;
+    top: -15px;
+}
+.signup .form .info > div:nth-child(6) p{
+    font-weight: 500;
+}
+.signup .form .info > div .checkbox{
+    width: 20px;
+    cursor: pointer;
+}
+.signup .form .proceed{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 750px;
+    align-items: center;
+    cursor: pointer;
+}
+.signup .form .proceed p{
+    font-weight: 700;
+}
+.signup .form .proceed:hover p{
+    text-decoration: underline;
+}
+.signup .form .proceed > p{
+    color: #5e5e5e;
+    text-decoration: underline;
+}
+.signup .form .proceed .btn{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.signup .form .proceed .btn img{
+    width: 40px;
+    transform: rotate(45deg);
+    height: 40px;
+}
+.signup .draw-parent{
+    height: 110px;
+    width: 100%;
+    position: relative;
+    top: -50px;
+    display: flex;
+}
+.signup .draw-parent div{
+    background: #191919;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.signup .draw-parent .draw1{
+    transform: rotate(5.5deg) translateX(-5%);
+    width: 80%;
+}
+.signup .draw-parent .draw2{
+    transform: rotate(-11deg) translateX(70%) translateY(100%);
+}
+.signup footer{
+    margin-top: -20px;
+    position: relative;
+    z-index: 3333;
+}

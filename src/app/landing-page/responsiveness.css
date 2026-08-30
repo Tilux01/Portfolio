@@ -1,0 +1,448 @@
+@media (max-width: 1124px) {
+    .Tilux-overall{
+    }
+    .Tilux-overall .hero .fadeName{
+        font-size: 100px;
+        top: -20px;
+    }
+}
+@media (max-width: 1095px) {
+    .Tilux-overall .offer{
+        gap: 3rem;
+    }
+}
+@media (max-width: 1006px) {
+    .Tilux-overall .offer{
+        gap: 2rem;
+    }
+    .Tilux-overall .offer > img{
+        height: 500px;
+        width: 350px;
+    }
+    .Tilux-overall .offer .motAll{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top:100px;
+    }
+    .Tilux-overall .offer .motAll h1{
+        font-size: 45px;
+    }
+    .Tilux-overall .offer .motAll h2{
+        margin: 0;
+        padding: 0;
+    }
+    .Tilux-overall .os{
+        gap: 3rem;
+        padding-right: 0px;
+    }
+    .Tilux-overall .os img{
+        max-width: 400px;
+        height: 500px;
+    }
+    .Tilux-overall .os .content{
+        padding-left: 0;
+    }
+}
+@media (max-width: 940px) {
+    .Tilux-overall .TilChat{
+        margin-top: 100px;
+    }
+    .Tilux-overall .TilChat .TilChatText{
+        right: 0px;
+        bottom: -220px;
+    }
+    .Tilux-overall .hero{
+        height: 450px;
+    }
+    .Tilux-overall .hero .intro img{
+        max-width: 550px;
+    }
+    .Tilux-overall .hero .intro .textIntro{
+        padding-left: 10px;
+    }
+    .Tilux-overall .hero .intro .textIntro p{
+        font-size: 18px;
+    }
+    .Tilux-overall .hero .intro .textIntro h1{
+        font-size: 65px;
+    }
+    .Tilux-overall .hero .intro .textIntro h2{
+        font-size: 70px;
+    }
+    .Tilux-overall .hero .fadeName{
+        font-size: 80px;
+        top: 0px;
+    }
+    .Tilux-overall .tiluxOffer .animShow > div .imgParent{
+        max-width: 400px;
+        height: 400px;  
+    }
+    .Tilux-overall .tiluxOffer .animShow > div:nth-child(2){
+        animation: osImg ease forwards, adminFadeAnim ease forwards;
+        animation-timeline: view();
+    }
+}
+@media (max-width: 904px) {
+    .Tilux-overall .offer .motAll{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top:100px;
+        height: auto;
+    }
+    .Tilux-overall .offer .motAll h1{
+        font-size: 35px;
+        line-height: 40px;
+        top: -100px;
+    }
+    .Tilux-overall .offer .motAll h2{
+        font-size: 20px;
+    }
+    .Tilux-overall .offer .motAll .cont p{
+        width: 100%;
+    }
+    .Tilux-overall .os{
+        margin-top: 50px;
+    }
+    .Tilux-overall .tiluxOffer{
+        margin-top: 100px;
+    }
+}   
+@media (max-width: 850px) {
+    .Tilux-overall .others-overall h1{
+        font-size: 40px;
+    }
+    .Tilux-overall .TilChat .TilChatText h2{
+        font-size: 16px;
+    }
+    .Tilux-overall .TilChat .TilChatText p{
+        font-size: 10px;
+    }
+     .Tilux-overall .hero{
+        height: 300px;
+    }
+    .Tilux-overall .hero .intro img{
+        max-width: 400px;
+    }
+    .Tilux-overall .hero .intro .textIntro p{
+        font-size: 16px;
+    }
+    .Tilux-overall .hero .intro .textIntro h1{
+        font-size: 50px;
+    }
+    .Tilux-overall .hero .intro .textIntro h2{
+        font-size: 55px;
+        margin-top: 95px;
+    }
+    .Tilux-overall .hero .fadeName{
+        font-size: 60px;
+        top: 20px;
+    }
+    .Tilux-overall .admin .content p{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .Tilux-overall .admin .content h5{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .Tilux-overall .admin2{
+        display: flex;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .Tilux-overall .admin2 img{
+        width: 100%;
+        max-width: 300px;
+        max-height: 470px;
+        object-fit: cover;
+    }
+    .Tilux-overall .admin2 p, .Tilux-overall .admin2 h5{
+        width: 100%;
+        max-width: 700px;
+        color: whitesmoke;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .Tilux-overall .admin2 h5{
+        font-size: 11px;
+        cursor: pointer;
+    }
+    .Tilux-overall .admin2 h5:hover{
+        color: #d6fb00;
+    }
+    .Tilux-overall .os{
+        gap: 1rem;
+    }
+    .Tilux-overall .os img{
+        width: 100%;
+        max-width: 300px;
+        height: 400px;
+    }
+    .Tilux-overall .os .content{
+        padding-left: 0;
+    }
+    .Tilux-overall .os .content h1{
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .Tilux-overall .os .content p{
+        font-size: 14px;
+        margin: 10px 0px;
+    }
+    .Tilux-overall .os .content h5{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 800px) {
+    .Tilux-overall .hero .intro img{
+        animation: imgMoveIn 1s ease-in, fadeAnimImg 1s ease-in;
+        animation-timeline: view();
+    }
+    @keyframes imgMoveIn {
+        100%{
+            transform:translateY(-300px);
+        }
+        70%{
+            transform: translateY(0px);
+        }
+    }
+    .Tilux-overall .offer .motAll .cont{
+        animation: dynamicSlide ease forwards;
+        animation-timeline: view();
+    }
+    .Tilux-overall .os img{
+        animation: imgMoveIn ease forwards;
+        animation-timeline: view();
+    }
+    .Tilux-overall .tiluxOffer .animShow > div:nth-child(3){
+        animation: offerSideMove ease forwards, adminFadeAnim ease forwards;  
+        animation-timeline: view(); 
+    }
+}
+@media (max-width: 650px) {
+    .Tilux-overall .TilChat .TilChatText .TilChatTag{
+        gap: 10px;
+        top: -20px;
+        left: 20px;
+    }
+    .Tilux-overall .TilChat .TilChatText .TilChatTag .line{
+        width: 15px;
+        height: 40px;
+    }
+}
+@media (max-width: 600px) {
+    .Tilux-overall header .callToActBtn{
+        height: 20px;
+        width: 90px;
+    }
+    .Tilux-overall .hero .fadeName{
+        top: 10px;
+    }
+    .Tilux-overall .hero{
+        height: 300px;
+        margin-bottom: 50px;
+    }
+    .Tilux-overall .hero .intro .textIntro p{
+        font-size: 14px;
+    }
+    .Tilux-overall .hero .intro .textIntro h1{
+        font-size: 40px;
+    }
+    .Tilux-overall .hero .intro .textIntro h2{
+        font-size: 45px;
+    }
+    .Tilux-overall .admin{
+        flex-direction: column;
+        padding: 0px 15px;
+        margin-top: 150px;
+    }
+    .Tilux-overall .admin .rotate{
+        right: 19px;
+        left: auto;
+        top: -185px;
+        width: 120px;
+        height: 120px;
+    }
+    .Tilux-overall .admin .adminImg{
+        width: 100%;
+        left: 0;
+        height: 600px;
+    }
+    .Tilux-overall .admin .content{
+        right: 0;
+        top: 0;
+    }
+    .Tilux-overall .admin .content h5{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .Tilux-overall .admin .content p{
+        font-size: 16px;
+    }
+    .Tilux-overall .admin2{
+        flex-direction: column;
+    }
+    .Tilux-overall .admin2 .content p{
+        font-size: 16px;
+    }
+    .Tilux-overall .offer{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .Tilux-overall .offer > img{
+        width: 100%;
+        height: 300px;
+    }
+    .Tilux-overall .offer .motAll{
+        margin-top: -130px;
+    }
+    .Tilux-overall .offer .motAll h1{
+        top: 0;
+        position: relative;
+        left: 0;
+        font-size: 35px;
+    }
+    .Tilux-overall .os{
+        flex-direction: column-reverse;
+    }
+    .Tilux-overall .os > img{
+        height: 300px;
+        width: 100% !important;
+        object-fit: cover;
+        /* animation: dynamicSlide ease forwards !important; */
+        animation-timeline: view();
+    }
+    .Tilux-overall .tiluxOffer .animShow{
+        gap: 40px;
+    }
+    .Tilux-overall .tiluxOffer .animShow > div{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .Tilux-overall .tiluxOffer .animShow > div .imgParent{
+        width: 100%;
+        height: 300px;
+    }
+    .Tilux-overall .tiluxOffer .animShow > div .imgParent img{
+        object-position: 0px -180px;
+    }
+    .Tilux-overall .TilChat .TilChatText{
+        width: 90%;
+        left: 5%;
+    }
+    .Tilux-overall .others-overall{
+        margin-top: 250px;
+    }
+    .Tilux-overall .others-overall h1{
+        font-size: 30px;
+    }
+    .Tilux-overall .others-overall .others-parent .others p{
+        font-size: 18px;
+    }
+}
+@media (max-width:470px) {
+    .Tilux-overall .offer{
+        margin-top: 120px;
+    }
+    .Tilux-overall header h1{
+        font-size: 25px !important;
+    }
+    .Tilux-overall .tiluxOffer{
+        padding: 0px 10px;
+    }
+    .Tilux-overall .TilChat .TilChatText .TilChatTag{
+        justify-content: end;
+        left: auto;
+    }
+    .Tilux-overall .TilChat .TilChatText .TilChatTag .line{
+        transform: rotate(-20deg) perspective(20px);
+    }
+    .Tilux-overall header{
+        padding: 0px 10px !important;
+        width: calc(100% - 20px);
+    }
+    .Tilux-overall .hero .fadeName{
+        top: 10px !important;
+    }
+    .Tilux-overall .hero{
+        height: 250px;
+    }
+
+}
+@media (max-width: 438px) {
+        .Tilux-overall .tiluxOffer .animShow > div h2{
+        align-self: start;
+    }
+}
+@media (max-width: 400px) {
+    .Tilux-overall .offer .motAll h1{
+        font-size: 25px;
+    }
+    .Tilux-overall .offer .motAll .cont h2{
+        font-size: 16px;
+    }
+    .Tilux-overall .tiluxOffer{
+        margin-top: 50px;
+    }
+    .Tilux-overall .tiluxOffer h1{
+        font-size: 30px !important;
+    }
+    .Tilux-overall .os h1{
+        font-size: 35px !important;
+    }
+    
+}
+@media (max-width: 340px) {
+    .Tilux-overall .hero .fadeName{
+        font-size: 40px !important;
+        top: 30px !important;
+    }
+}
+
+@keyframes dynamicSlide {
+    0%{
+        transform: translate(-300px, 300px);
+    }
+    40%{
+        transform: translateY(0px);
+    }
+    70%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translate(0px, -300px);
+    }
+}
+@keyframes offerSideMove {
+    0%{
+        transform: translateX(-300px);
+    }
+    20%{
+        transform: translateX(0px);
+    }
+    80%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-300px);
+    }
+}
+@keyframes adminFadeAnim {
+    0%{
+        filter: opacity(0);
+    }
+    40%{
+        filter: opacity(1);
+    }
+    60%{
+        filter: opacity(1);
+    }
+    100%{
+        filter: opacity(0);
+    }
+}

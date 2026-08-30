@@ -1,0 +1,384 @@
+.Tilux-overall .tiluxOffer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    gap: 50px;
+}
+.Tilux-overall .tiluxOffer h1{
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    color: whitesmoke;
+    animation: adminFadeAnim ease forwards, osContent ease forwards;
+    animation-timeline: view();
+}
+.Tilux-overall .tiluxOffer .animShow{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 20px;
+}
+.Tilux-overall .tiluxOffer .animShow > div{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.Tilux-overall .tiluxOffer .animShow > div .imgParent{
+    overflow: hidden;
+    width: 90%;
+    width: 300px;
+    height: 500px;  
+}
+.Tilux-overall .tiluxOffer .animShow > div .imgParent img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in;
+}
+.Tilux-overall .tiluxOffer .animShow > div:nth-child(2){
+    position: relative;
+    animation: offerMove ease-in forwards, adminFadeAnim ease forwards;
+    animation-timeline: view();
+}
+.Tilux-overall .tiluxOffer .animShow > div:nth-child(1){
+    animation: offerSideMove ease forwards, adminFadeAnim ease forwards;   
+    animation-timeline: view();
+    position: relative;
+}
+.Tilux-overall .tiluxOffer .animShow > div:nth-child(3){
+    animation: osImg ease forwards, adminFadeAnim ease forwards;   
+    animation-timeline: view();
+    position: relative;
+}
+.Tilux-overall .tiluxOffer .animShow > div h2{
+    color: whitesmoke;
+}
+.Tilux-overall .tiluxOffer .animShow > div:hover h2{
+    color: #d6fb00;
+}
+.Tilux-overall .tiluxOffer .animShow > div:hover .imgParent img{
+    filter: brightness(.5);
+    transform: scale(1.4);
+    transition: all 0.5s ease-in;
+}
+.Tilux-overall .TilChat{
+    display: flex;
+    width: 100%;
+    margin-top: 200px;
+    position: relative;
+}
+.Tilux-overall .TilChat img{
+    width: 100%;
+    animation: scale ease forwards, adminFadeAnim ease forwards;
+    animation-timeline: view();
+}
+.Tilux-overall .TilChat .TilChatText{
+    width: 100%;
+    max-width: 1000px;
+    background:  #191919;
+    position: absolute;
+    height: 230px;
+    bottom: 0;
+    right: 5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    animation: osContent ease forwards, adminFadeAnim ease forwards;
+    animation-timeline: view();
+}
+.Tilux-overall .TilChat .TilChatText h2{
+    width: 95%;
+    max-width: 750px;
+    color: whitesmoke;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.Tilux-overall .TilChat .TilChatText p{
+    color: whitesmoke;
+    width: 95%;
+    max-width: 750px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.Tilux-overall .TilChat .startTil{
+    font-size: 18px !important;
+    font-weight: 900;
+    margin: 10px 0 0px 0px;
+}
+.Tilux-overall .TilChat .TilChatText .TilChatTag{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: -30px;
+    max-width: 750px;
+    gap: 20px;
+}
+.Tilux-overall .TilChat .TilChatText .TilChatTag .line{
+    width: 25px;
+    height: 60px;
+    background: #d6fb00;
+    transform: rotate(20deg) perspective(20px);
+}
+.Tilux-overall .others-overall{
+    width: 95%;
+    margin-top: 200px;
+}
+.Tilux-overall .others-overall h1{
+    font-size: 60px;
+    color: whitesmoke;
+    animation: offerSideMove ease forwards, osFadeAnim ease forwards;
+    animation-timeline: view();
+    position: relative;
+}
+.Tilux-overall .others-overall .others-parent{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Tilux-overall .others-overall .others-parent .others{
+    width: 95%;
+    max-width: 450px;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+    margin-top: 30px;
+    animation: osContent ease forwards, osFadeAnim ease forwards;
+    animation-timeline: view();
+}
+.Tilux-overall .others-overall .others-parent .others .imgContainer{
+    width: 100%;
+    overflow: hidden;
+    /* height: 350px; */
+    transition: all 0.5s ease-in;
+    /* border: 2px solid red; */
+}
+.Tilux-overall .others-overall .others-parent .others img{
+    width: 100%;
+    transition: all 0.5s ease-in;
+    height: 100%;
+    object-fit: contain;
+}
+.Tilux-overall .others-overall .others-parent .others p{
+    font-size: 25px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+.Tilux-overall .others-overall .others-parent .others:hover p{
+    text-decoration: underline;
+    transition: all 0.5s ease-in;
+}
+.Tilux-overall .others-overall .others-parent .others:hover img{
+    scale: 1.2;
+    filter: brightness(.7);
+    transition: all 0.5s ease-in;
+}
+
+
+@keyframes down {
+    0%{
+        top: -200px;
+    }
+    100%{
+        top: 0;
+    }
+}
+@keyframes fadeAnim {
+    100%{
+        filter: opacity(0);
+    }
+    60%{
+        filter: opacity(1);
+    }
+}
+@keyframes fadeNameSlide {
+    100%{
+        transform: translateX(-400px);
+    }
+    60%{
+        transform: translateX(0px);
+    }
+}
+@keyframes iconFadeNameSlide {
+    100%{
+        transform: translateX(-400px);
+    }
+    80%{
+        transform: translateX(0px);
+    }
+}
+@keyframes fadeNameUpSlide {
+    100%{
+        transform: translateY(-400px);
+    }
+    60%{
+        transform: translateY(0px);
+    }
+}
+@keyframes slide {
+    100%{
+        width: 0px;
+        overflow: hidden;
+    }
+    70%{
+        width: 600px;
+    }
+}   
+@keyframes fadeAnimImg {
+    100%{
+        filter: opacity(0) brightness(.7);
+    }
+    70%{
+        filter: opacity(100%) brightness(.7);
+    }
+}
+@keyframes imgMoveIn {
+    100%{
+        transform:translateX(500px) ;
+    }
+    70%{
+        transform: translateX(0px);
+    }
+}
+@keyframes adminFade {
+    0%{
+        filter: opacity(0);
+    }
+    40%{
+        filter: opacity(.7);
+    }
+    60%{
+        filter: opacity(.7);
+    }
+    100%{
+        filter: opacity(0);
+    }
+}
+@keyframes adminContent {
+    0%{
+        transform: translateY(300px);
+    }
+    40%{
+        transform: translateY(0px);
+    }
+    60%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-300px);
+    }
+}
+@keyframes adminFadeAnim {
+    0%{
+        filter: opacity(0);
+    }
+    40%{
+        filter: opacity(1);
+    }
+    60%{
+        filter: opacity(1);
+    }
+    100%{
+        filter: opacity(0);
+    }
+}
+@keyframes dynamicSlide {
+    0%{
+        transform: translate(-300px, 300px);
+    }
+    40%{
+        transform: translateY(0px);
+    }
+    70%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translate(300px, -300px);
+    }
+}
+@keyframes osContent {
+    0%{
+        transform: translateY(300px);
+    }
+    30%{
+        transform: translateY(0px);
+    }
+    80%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-300px);
+    }
+}
+@keyframes osFadeAnim {
+    0%{
+        filter: opacity(0);
+    }
+    30%{
+        filter: opacity(1);
+    }
+    70%{
+        filter: opacity(1);
+    }
+    100%{
+        filter: opacity(0);
+    }
+}
+@keyframes osImg {
+    0%{
+        transform: translateX(300px);
+    }
+    20%{
+        transform: translateX(0px);
+    }
+    80%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(300px);
+    }
+}
+@keyframes offerMove {
+    0%{
+        transform: translateY(300px);
+    }
+    20%{
+        transform: translateY(100px);
+    }
+    60%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(-300px);
+    }
+}
+@keyframes offerSideMove {
+    0%{
+        transform: translateX(-300px);
+    }
+    20%{
+        transform: translateX(0px);
+    }
+    80%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-300px);
+    }
+}
+@keyframes scale {
+    0%{
+        transform: scale(0);
+    }
+    20%{
+        transform: scale(1);
+    }
+    80%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}

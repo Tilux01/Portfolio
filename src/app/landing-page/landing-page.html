@@ -1,0 +1,187 @@
+<main class="Tilux-overall">
+  <header>
+    <div class="logoParent">
+      <img src="menu.png" alt="">
+      <h4>Menu</h4>
+    </div>
+    <h1 class="brand">
+      Tilux
+    </h1>
+    <div class="callToActBtn">
+      <img src="left-arrow-white.png" alt="">
+      <p (click)="openOs()">VISIT OS</p>
+    </div>
+  </header>
+  <section class="hero">
+    <h1 class="fadeName">ISRAEL <br> ADEKOLA</h1>
+    <div class="intro">
+      <div class="textIntro">
+        <p>HELLO, I'M TILUX</p>
+        <h1>LET'S  WORK<br> WITH YOUR</h1>
+        <h2>WEBSITE</h2>
+      </div>
+        <img src="IMG_1814.JPG" alt="">
+    </div>
+  </section>
+  <section class="siderIcon">
+    <img src="linkedin (1).png" alt="">
+    <img src="whatsapp.png" alt="">
+  </section>
+  <section class="admin" *ngIf="!showAllDes">
+    <img src="IMG_1812.JPG" class="adminImg" alt="">
+    <img src="workingprog.png" class="rotate" alt="">
+    <div class="content">
+      <p class="start">My name is Adekola Israel, I am also known as Tilux. I am a certified web developer, I specify in building web page, fully functional e-commerce website, full-stack web development(MERN-STACK && SAP-STACK), portfolio and all kinds of web page. i also work with native app development using react native, and also an engineer in java programming and python programming. </p>
+      <h5 (click)="showAll()">READ MORE</h5>
+    </div>
+  </section>
+  <section class="admin2" *ngIf="showAllDes">
+    <img src="IMG_1812.JPG" class="adminImg" alt="">
+    <div class="content">
+      <div class="introParent">
+        <p class="start">My name is Adekola Israel, I am also known as Tilux. I am a certified web developer, I specify in building web page, fully functional e-commerce website, full-stack web development(MERN-STACK && SAP-STACK), portfolio and all kinds of web page. i also work with native app development using react native, and also an engineer in java programming and python programming. </p>
+        <p>I am a student of SQI college of ICT Ogbomosho, studying software engineering as a course. I have 2 years of experience in web development and during these years, i have been able to create diverse of project including Chat app, OS, Typing platinum game, music application, Note Keeping application and so many others. I have won numerouse outstanding awards in my school and collaborated in so many project. I also did 4 month internship at mainstreet microfinance bank in lagos, functioning at the IT depaartment and served a key role in managament, building, network managemenet and so many others. </p>
+      </div>
+      <h5 (click)="showLess()">SHOW LESS</h5>
+    </div>
+  </section>
+  <section class="offer">
+    <img src="IMG_0310.jpg" alt="">
+      <div class="motAll">
+        <h1>USE MY EXPERIENCE <br> TO ACHIEVE THE <br> PERFECT WEBPAGE <br> YOU DESERVE</h1>
+        <div class="cont">
+          <h2>DEVELOPMENT</h2>
+          <p>Get beautiful web page that suite the best for your business.</p>
+        </div>
+        <div class="cont">
+          <h2>SECURITY</h2>
+          <p>Get a secured platform with zero loop or breakage.</p>
+        </div>
+        <div class="cont">
+          <h2>ERROR FREE</h2>
+          <p>Get error free and efficient web page that serves millions of your users.</p>
+        </div>
+        <div class="callToActBtn">
+          <img src="left-arrow-white.png" alt="">
+          <p (click)="openOs()">VISIT OS</p>
+        </div>
+      </div>
+  </section>
+  <section class="os">
+    <div class="content">
+      <h1>Tilux OS</h1>
+      <p>Tilux Os is a web based operating system built by Tilux, it has diverse of functionality and also serve as storage that holds, preview and allow users to explore through apps developed by me.</p>
+      <p>Tilux Os also allow other developers to create account and add their applications for users to visit and explore. It contains diverse of functionality that allows developer to make adjustment based on their preferences, for example, it allows adding of images, adjusting icons, task bar and personalization settings while giving them access to write but only edit access for visitors.</p>
+      <h5 (click)="openOs()">EXPLORE OS</h5>
+    </div>
+    <img src="Screenshot From 2026-03-13 21-51-53.png" alt="">
+  </section>
+  <section class="tiluxOffer">
+    <h1>WHAT TILUX <br> OFFER</h1>
+    <div class="animShow">
+      <div class="block">
+        <div class="imgParent">
+          <img src="IMG_E2393.JPG" alt="">
+        </div>
+        <h2>WEBPAGE <br> DEVELOPMENT</h2>
+      </div>
+      <div class="block">
+        <div class="imgParent">
+          <img src="e4a897f9-ce75-40de-b9ba-a89dfe8b021a (1).jpg" alt="">
+        </div>
+        <h2>OS FOR <br> DEVELOPERS</h2>
+      </div>
+      <div class="block">
+        <div class="imgParent">
+          <img src="IMG_2105 (Edited).JPG" alt="">
+        </div>
+        <h2>PROBLEM SOLVING <br> APPLICATIONS</h2>
+      </div>
+    </div>
+  </section>
+  <section class="TilChat">
+    <img src="Screenshot From 2026-03-13 23-00-36.png" alt="">
+    <div class="TilChatText">
+      <div class="TilChatTag">
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <p class="startTil">TilChat</p>
+      <h2>TilChat a chatting system platform that allow users to communicate, find friends, use AI, watch live video, get access to latest news and so many more functionalities to explore making it easier and easy to navigate.</h2>
+    </div>
+  </section>
+  <section class="others-overall">
+    <h1>OTHER <br> APPLICATIONS</h1>
+    <div class="others-parent">
+      <div class="others">
+        <div class="imgContainer">
+          <img src="TIlType.png" alt="">
+        </div>
+        <p>A Typing platinum game that helps in improving typing skill.</p>
+      </div>
+      <div class="others">
+        <div class="imgContainer">
+          <img src="Tilux-keep.png" alt="">
+        </div>
+        <p>A multi functional note keeping application with real time update.</p>
+      </div>
+      <div class="others">
+        <div class="imgContainer">
+          <img src="TIluxStream.png" alt="">
+        </div>
+        <p>A music streaming application with latest update and release.</p>
+      </div>
+    </div>
+  </section>
+  <section class="appImages-overall">
+    <div class="ig">
+      <p>@tilux_israel</p>
+      <img src="1130655f-51eb-4e88-a601-96f9327f92ce.svg" alt="">
+    </div>
+    <div class="appImages">
+      
+      <img src="os2.png" alt="">
+      <img src="tilchat2.png" alt="">
+      <img src="football-formation.png" alt="">
+      <img src="tilux-beacon.png" alt="">
+      <img src="keep2.png" alt="">
+      <img src="TIluxStream.png" alt="">
+    </div>
+  </section>
+  <footer>
+    <h1>LET'S GET <br> STARTED</h1>
+    <div class="detail">
+      <div class="cred">
+        <p>+(234) 703 0916 180</p>
+        <h5>israeladekola8@gmail.com</h5>
+      </div>
+      <div class="callToActBtn">
+        <img src="left-arrow-white.png" alt="">
+        <p>GET Tilux Account</p>
+      </div>
+      <div class="address">
+        <p>Main base Location:</p>
+        <h5>Ogbomosho, Oyo state, Nigeria</h5>
+      </div>
+    </div>
+    <h4>Enter your email to get updated on platform provided by tilux...</h4>
+    <div class="emailEnt">
+      <input type="text" placeholder="your email here">
+      <p>Email me</p>
+    </div>
+    <div class="socials">
+      <img src="1130655f-51eb-4e88-a601-96f9327f92ce.svg" alt="">
+      <img src="78563a8b-e07a-4d7d-bd10-307df7fbe025.svg" alt="">
+      <img src="youtube.png" alt="">
+      <img style="filter: none;" src="whatsapp.png" alt="">
+      <img style="filter: none;" src="social.png" alt="">
+      <img style="filter: none;" src="tiktok (1).png" alt="">
+    </div>
+    <div class="accreditation">
+      <p>© 2026 Tilux.</p>
+      <p>All rights reserved.</p>
+    </div>
+  </footer>
+</main>
+
+
